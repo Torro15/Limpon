@@ -34,10 +34,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">edit</i>Features</a></li>
+        <li><a href="#!"><i class="material-icons">play_circle</i>Video</a></li>
+        <li><a href="#!"><i class="material-icons">screenshot_monitor</i>Screens</a></li>
+        <li><a href="#!"><i class="material-icons">price_check</i>Pricing</a></li>
+        <li><a href="#!"><i class="material-icons">people</i>Team</a></li>
+        <li><a class="btn-primary header__btn" href="#!">Free Trail</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Close</a></li>
+    </ul>
     <header class="header">
         <div class="wrap">
             <div class="header__flex">
@@ -51,6 +65,11 @@
                     <li><a href="" class="nav-item">Team</a></li>
                     <li> <a href="" class="btn-primary header__btn">Free Trail</a></li>
                 </ul>
+                <a class="burger sidenav-trigger" data-target="slide-out">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </a>
             </div>
         </div>
         <div class="header__content-flex">
@@ -189,7 +208,7 @@
     </section>
     <section class="stat">
         <div class="wrap">
-            <h2 class="title-h2 stat__h2"><span>Fun Facts</span>Some Fun Facts About Dashboard</h2>
+            <h2 class="h2-title stat__h2"><span>Fun Facts</span>Some Fun Facts About Dashboard</h2>
             <ul class="list-stat">
                 <li><span>53K</span>Layouts</li>
                 <li><span>10K</span>projects</li>
@@ -201,7 +220,7 @@
     <section class="app">
         <!-- <div class="wrap"> -->
         <div class="app__flex">
-            <div class="app_flex-left">
+            <div class="app__flex-left">
                 <h2 class="h2-title app__h2">Meet With <br>Future Landingpage</h2>
                 <p class="p-text app__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -424,9 +443,10 @@
                     </ul>
                 </div>
             </div>
-
         </div>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
