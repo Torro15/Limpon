@@ -33,6 +33,7 @@
         data-mce-href="/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -144,30 +145,47 @@
         </div>
     </section>
     <section class="software">
-        <div class="wrap">
-            <div class="software__info">
-                <img class="section__logo" src="img/section-logo.png" alt="Logo">
-                <h2 class="h2-title software__h2">Grab Your Software With Amazing Features</h2>
-                <p class="p-text software__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum.</p>
-                <div class="software__list">
-                    <dl>
-                        <dt>01. Clean Design</dt>
-                        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum.</dd>
-                        <dt>02. Easy To Customize</dt>
-                        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum.</dd>
-                    </dl>
+        <!-- <div class="wrap"> -->
+            <div class="software__flex">
+                <div class="software__flex-left">
+                    <img class="software__img" src="img/software-img.png" alt="Software">
+                </div>
+                <div class="software__flex-right">
+                    <div class="software__info">
+                        <img class="section__logo" src="img/section-logo.png" alt="Logo">
+                        <h2 class="h2-title software__h2">Grab Your Software With Amazing Features</h2>
+                        <p class="p-text software__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in
+                            reprehenderit in voluptate velit esse cillum.</p>
+                        <div class="software__list">
+                            <dl>
+                                <dt>01. Clean Design</dt>
+                                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit
+                                    in
+                                    voluptate velit esse cillum.</dd>
+                                <dt>02. Easy To Customize</dt>
+                                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit
+                                    in
+                                    voluptate velit esse cillum.</dd>
+                            </dl>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
     <section class="stat">
         <div class="wrap">
@@ -182,18 +200,21 @@
     </section>
     <section class="app">
         <!-- <div class="wrap"> -->
-            <div class="app__flex">
-                <div class="app_flex-left">
-                    <h2 class="h2-title app__h2">Meet With <br>Future Landingpage</h2>
-                    <p class="p-text app__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                    <span>Available Now</span>
-                    <ul class="app__info">
-                        <li><a href="" target="_blank"><img src="img/app-google-play.png" alt="Google Play"></a></li>
-                        <li><a href="" target="_blank"><img src="img/app-app-store.png" alt="App Store"></a></li>
-                    </ul>
-                </div>
-                <img class="app__img" src="img/play.png" alt="Video">
+        <div class="app__flex">
+            <div class="app_flex-left">
+                <h2 class="h2-title app__h2">Meet With <br>Future Landingpage</h2>
+                <p class="p-text app__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum.</p>
+                <span>Available Now</span>
+                <ul class="app__info">
+                    <li><a href="" target="_blank"><img src="img/app-google-play.png" alt="Google Play"></a></li>
+                    <li><a href="" target="_blank"><img src="img/app-app-store.png" alt="App Store"></a></li>
+                </ul>
             </div>
+            <img class="app__img" src="img/play.png" alt="Video">
+        </div>
         <!-- </div> -->
     </section>
     <section class="analitycs">
@@ -205,7 +226,10 @@
                 <div class="analitycs__flex-right">
                     <img class="section__logo" src="img/section-logo.png" alt="Logo">
                     <h2 class="h2-title analitycs__h2">Limpon Is Suitable For Anytype LandingPage</h2>
-                    <p class="p-text analitycs__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p class="p-text analitycs__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum.</p>
                     <a href="" class="btn-primary analitycs__btn">get started now</a>
                 </div>
             </div>
@@ -217,7 +241,10 @@
                 <div class="control__flex-left">
                     <img class="section__logo" src="img/section-logo.png" alt="Logo">
                     <h2 class="h2-title control__h2">Easy To Etid & <br> Very Easily Control</h2>
-                    <p class="p-text control__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p class="p-text control__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum.</p>
                     <a href="#" class="btn-primary control__btn">Learn more</a>
                 </div>
                 <div class="control__flex-right">
@@ -226,8 +253,8 @@
     </section>
     <section class="screen">
         <!-- <div class="wrap"> -->
-            <h2 class="h2-title screen__h2"><span>screen preview</span>Screenshot With Details</h2>
-            <img class="screen__img" src="img/screen-img.png" alt="Screenshot">
+        <h2 class="h2-title screen__h2"><span>screen preview</span>Screenshot With Details</h2>
+        <img class="screen__img" src="img/screen-img.png" alt="Screenshot">
         <!-- </div> -->
     </section>
     <section class="clients">
@@ -276,8 +303,8 @@
     <section class="plan">
         <div class="wrap">
             <h2 class="h2-title plan__h2"><span>our plans</span>Pricing Plans</h2>
-            <div class="price_flex">
-                <div class="price__flex-item">
+            <div class="plan__flex">
+                <div class="plan__flex-item">
                     <h3 class="h3-title plan__h3">Free</h3>
                     <p class="plan__p">starter</p>
                     <ul class="plan-info">
@@ -288,10 +315,11 @@
                         <li>Free Hosting Name</li>
                         <li>24 7 Online Support</li>
                     </ul>
-                    <a href="">Choose Plan</a>
+                    <a class="plan-link" href="">Choose Plan</a>
                 </div>
-                <div class="price__flex-item active">
-                    <h3 class="h3-title plan__h3"><span>$</span>90<span>/mo</span></h3>
+                <div class="plan__flex-item active">
+                    <h3 class="h3-title plan__h3"><span class="span-active-1">$</span>90<span
+                            class="span-active-2">/mo</span></h3>
                     <p class="plan__p"><strong>starter</strong></p>
                     <ul class="plan-info">
                         <li>Unlimited users Active</li>
@@ -301,10 +329,11 @@
                         <li>Free Hosting Name</li>
                         <li>24 7 Online Support</li>
                     </ul>
-                    <a href="" class="btn-primary">Choose Plan</a>
+                    <a href="" class="btn-primary active__btn">Choose Plan</a>
                 </div>
-                <div class="price__flex-item">
-                    <h3 class="h3-title plan__h3"><span>$</span>350<span>/mo</span></h3>
+                <div class="plan__flex-item last">
+                    <h3 class="h3-title plan__h3"><span class="span-1">$</span>350<span class="span-active-2">/mo</span>
+                    </h3>
                     <p class="plan__p"><strong>starter</strong></p>
                     <ul class="plan-info">
                         <li>Unlimited users Active</li>
@@ -314,7 +343,7 @@
                         <li>Free Hosting Name</li>
                         <li>24 7 Online Support</li>
                     </ul>
-                    <a href="">Choose Plan</a>
+                    <a class="plan-link" href="">Choose Plan</a>
                 </div>
             </div>
         </div>
@@ -327,7 +356,7 @@
                     <img class="team__img" src="img/team-1-img.png" alt="Team photo">
                     <p class="team__position">founder</p>
                     <p class="team__name">Ricardo T. Obrien</p>
-                    <img class="team__social" src="img/team-plus.png" alt="Social">
+                    <img class="team__plus" src="img/team-plus.png" alt="Social">
                 </div>
                 <div class="team__flex-item">
                     <img class="team__img" src="img/team-2-img.png" alt="Team photo">
@@ -346,34 +375,56 @@
                     <img class="team__img" src="img/team-3-img.png" alt="Team photo">
                     <p class="team__position">designer</p>
                     <p class="team__name">Thomas Alva Adison</p>
-                    <img class="team__social" src="img/team-plus.png" alt="Social">
+                    <img class="team__plus" src="img/team-plus.png" alt="Social">
                 </div>
             </div>
         </div>
     </section>
-    <div class="form">
+    <section class="form">
         <div class="wrap">
-            <h2>Start Your Free Trail No Need Credit Card.</h2>
-            <form action="">
-                <input type="text" placeholder="Enter your name here">
-                <input type="email" placeholder="Enter your email here">
-                <textarea name="" placeholder="Enter your message here"></textarea>\
-                <button type="submit"><span></span>submit now</button>
-            </form>
+            <div class="form__flex">
+                <div class="form__flex-left"><img class="form__img" src="img/form-img.png"></div>
+                <div class="form__flex-right">
+                    <h2 class="h2-title form__h2">Start Your Free Trail No Need Credit Card.</h2>
+                    <div class="form__flex-right">
+                        <form action="">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <input type="text" placeholder="Enter your name here">
+                            <input type="email" placeholder="Enter your email here">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <textarea name="" placeholder="Enter your message here"></textarea>
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                            <button class="btn-primary form__btn" type="button"><i class="fa fa-telegram"
+                                    aria-hidden="true"></i>submit now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
     <footer class="footer">
         <div class="wrap">
-            <p>Made With Love & Copyright By - <a href="" class="btn-primary">limpon</a></p>
-            <ul class="social">
-                <li><a href="" target="_blank"><img class="social__fb" src="img/footer-fb.png" alt="Facebook"></a></li>
-                <li><a href="" target="_blank"><img class="social__twitter" src="img/footer-twitterpng.png"
-                            alt="Twitter"></a></li>
-                <li><a href="" target="_blank"><img class="social__be" src="img/footer-be.png" alt="Be"></a></li>
-                <li><a href="" target="_blank"><img class="social__pinterest" src="img/footer-pinterest.png"
-                            alt="Pinterest"></a></li>
-                <li><a href="" target="_blank"><img class="social__twitter" src="img/footer-f.png" alt="Fb"></a></li>
-            </ul>
+            <div class="footer__flex">
+                <div class="footer__flex-left">
+                    <p>Made With Love & Copyright By - <a class="footer__link" href="">limpon</a></p>
+                </div>
+                <div class="footer__flex-right">
+                    <ul class="social">
+                        <li><a href="" target="_blank"><img class="social__fb" src="img/footer-fb.png"
+                                    alt="Facebook"></a>
+                        </li>
+                        <li><a href="" target="_blank"><img class="social__twitter" src="img/footer-twitterpng.png"
+                                    alt="Twitter"></a></li>
+                        <li><a href="" target="_blank"><img class="social__be" src="img/footer-be.png" alt="Be"></a>
+                        </li>
+                        <li><a href="" target="_blank"><img class="social__pinterest" src="img/footer-pinterest.png"
+                                    alt="Pinterest"></a></li>
+                        <li><a href="" target="_blank"><img class="social__f" src="img/footer-f.png" alt="Fb"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </footer>
 </body>
