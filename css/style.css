@@ -1030,7 +1030,7 @@ dd {
 }
 
 .form__img {
-    max-width: 423px;
+    width: 423px;
     padding-top: 10px;
 }
 
@@ -1747,6 +1747,10 @@ textarea {
     .form__flex-left {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .form__img {
+        width: 100%;
     }
 
     .form__flex-right {
