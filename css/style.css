@@ -76,7 +76,7 @@ dd {
 
 .header {
     min-height: 1000px;
-    background-image: url(/img/header-bg.png);
+    background-image: url(../img/header-bg.png);
     padding-top: 56px;
     padding-bottom: 110px;
 }
@@ -207,7 +207,7 @@ dd {
 
 .company {
     min-height: 273px;
-    background-image: url(/img/logos-bg.png);
+    background-image: url(../img/logos-bg.png);
     padding-top: 96px;
 }
 
@@ -419,7 +419,7 @@ dd {
 
 .software {
     min-height: 1000px;
-    background-image: url(/img/software-bg1.png);
+    background-image: url(../img/software-bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 130px;
@@ -501,7 +501,7 @@ dd {
 
 
 .stat {
-    background-image: url(/img/stat-bg.png);
+    background-image: url(../img/stat-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 531px;
@@ -558,7 +558,7 @@ dd {
 
 .app {
     min-height: 622px;
-    background-image: url(/img/app-bg.png);
+    background-image: url(../img/app-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 45px;
@@ -626,7 +626,7 @@ dd {
 
 .analitycs {
     min-height: 689px;
-    background-image: url(/img/analytics-bg.png);
+    background-image: url(../img/analytics-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 130px;
@@ -674,7 +674,7 @@ dd {
 
 .control {
     min-height: 690px;
-    background-image: url(/img/control-bg.png);
+    background-image: url(../img/control-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 131px;
@@ -734,7 +734,7 @@ dd {
 
 .clients {
     min-height: 525px;
-    background-image: url(/img/clients-bg.png);
+    background-image: url(../img/clients-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 188px;
@@ -824,7 +824,7 @@ dd {
 .plan__flex-item {
     width: 348px;
     height: 625px;
-    background-image: url(/img/price-item-bg.png);
+    background-image: url(../img/price-item-bg.png);
     padding-top: 94px;
 }
 
@@ -919,7 +919,7 @@ dd {
 
 .team {
     min-height: 845px;
-    background-image: url(/img/team-bg.png);
+    background-image: url(../img/team-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 113px;
@@ -1012,7 +1012,7 @@ dd {
 
 .form {
     min-height: 836px;
-    background-image: url(/img/form-bg.png);
+    background-image: url(../img/form-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 104px;
