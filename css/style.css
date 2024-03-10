@@ -716,7 +716,7 @@ dd {
 }
 
 .screen {
-    min-height: 765px;
+    /* height: 765px; */
     background-color: #edf6ff;
     padding-top: 116px;
     text-align: center;
@@ -1524,7 +1524,7 @@ textarea {
     }
 
     .header__h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .sidenav .header__btn {
